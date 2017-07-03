@@ -1,9 +1,9 @@
 # virtual-keyboard
 Mobile phone virtual keyboard
 
-键盘的报告描述符：
-uint8_t report_descriptor[] = {
-		0x05, 1, 		// Usage Page (1: Generic Desktop) 
+键盘的报告描述符：<br>
+uint8_t report_descriptor[] = {<br>
+		0x05, 1, 		// Usage Page (1: Generic Desktop) <br>
 		0x09, 6, 		// Usage (6: Keyboard)
 		0xA1, 1, 		// Collection (1: Application) 
 		0x05, 7, 		// 	Usage page (7: Key Codes) 
